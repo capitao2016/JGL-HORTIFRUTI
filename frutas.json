@@ -1,0 +1,4 @@
+"frutas"[
+    {"imagem": "imagens/Frutas/Abacaxi.png", "nome": "ABACAXI", "preco": "5,00"},
+    {"imagem": "imagens/Frutas/Morango.png", "nome": "MORANGO", "preco": "10,00"}
+]

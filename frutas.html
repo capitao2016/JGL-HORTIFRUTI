@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESTUDANDO HTML</title>
+    <link rel="stylesheet" href="categorias.css">
+    <script src="categorias.js" type="module" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://kit.fontawesome.com/70c6f55f6a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main class="container">
+        <div class="frutas" id="frutas">
+            <div class="card">
+                <img src="Imagens/Frutas/Goiaba.png" alt="goiaba" class="img">
+                
+                <div class="info">
+                    <div class="opc">
+                        <input type="radio" name="checkbox" id="unidade" class="unidade">
+                        <label for="unidade"><p class="preco">6 und = R$ <span>5,00</span></p></label>
+                    </div>
+
+                    <div class="opc">
+                        <input type="radio" name="checkbox" id="quilo" class='quilo'>
+                        <label for="quilo"><p>500 gr = R$ <span>2,00</span></p></label>
+                    </div>
+
+                    <div class="qnt">
+                        <button class="menos" id="menos">-</button>
+                        <p class="numero" id="numero">1</p>
+                        <button class="mais" id="mais">+</button>
+                    </div>
+                    <button class="comprar">CARRINHO</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
